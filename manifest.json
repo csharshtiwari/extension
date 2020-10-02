@@ -23,6 +23,6 @@
 	"permissions": [
 		"storage",
 		"notifications"
-		"contextMenus"
+		"contextMenu"
 	]
 }
