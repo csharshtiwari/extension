@@ -27,7 +27,7 @@ chrome.contextMenus.onClicked.addListener(function(clickData){
 						var notifiOptions = {
 						type: 'basic',
 						iconUrl: 'icons.png',
-						title: 'limit reached'
+						title: 'limit reached',
 						message: 'HEY! You have reached your limit'
 					};
 					chrome.notifications.create('limitNotif',notifiOptions);
